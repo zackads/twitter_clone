@@ -16,7 +16,7 @@ gulp.task('watch', () => {
         }
     });
 
-  gulp.watch("*.html").on("change", reload);  
+  gulp.watch('**/*.*').on("change", reload);  
   gulp.watch(['scss/**/*.scss', 'js/*.js', '!js/*.min.js', '!js/all.js'],
   gulp.parallel(['minify-sass', 'uglify-scripts']));
 

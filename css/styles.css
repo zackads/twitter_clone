@@ -6,6 +6,7 @@ body {
   width: 27px;
   height: auto; }
 
+
 .default_icon {
   width: 50px;
   height: auto;
@@ -13,3 +14,47 @@ body {
 
 .tweet_icons {
   color: #1da1f2; }
+
+.button {
+  background-color: #1da1f2;
+  color: #ffffff;
+  border: black solid 1px;
+  text-align: center;
+  border-radius: 624.9375rem;
+  font-weight: bold; }
+  .button.small {
+    width: 4.8042rem;
+    height: 2.4375rem;
+    font-size: 0.9375rem;
+    padding: 0 1rem; }
+  .button.big {
+    width: 14.3438rem;
+    height: 3.0625rem;
+    font-size: 0.9375rem;
+    padding: 0 1.875rem; }
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.18rem;
+  font-weight: 800;
+  color: #fff;
+  font-weight: 800; }
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff; }
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #fff; }
+
+.handle {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #8899a6; }
+

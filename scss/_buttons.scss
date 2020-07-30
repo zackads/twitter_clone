@@ -1,0 +1,23 @@
+.button {
+    background-color: $twitterBlue;
+    color: $whiteText;
+    border: black solid 1px;
+    text-align: center;
+    border-radius: 624.9375rem;
+    font-weight: bold;
+    font-family: $fontStack;
+
+    &.small {
+        width: 4.8042rem;
+        height: 2.4375rem;
+        font-size: 0.9375rem;
+        padding: 0 1rem;
+    }
+
+    &.big {
+        width: 14.3438rem;
+        height: 3.0625rem;
+        font-size: 0.9375rem;
+        padding: 0 1.875rem;
+    }
+}
