@@ -1,0 +1,33 @@
+.default_icon {
+  width: 50px;
+  height: auto;
+  color: green;
+}
+
+.logo {
+  @extend .default_icon;
+}
+
+.chevron_down {
+  @extend .default_icon;
+}
+
+.content_pref {
+  @extend .default_icon;
+}
+
+.poll__icon {
+  @extend .default_icon;
+}
+
+.schedule__icon {
+  @extend .default_icon;
+}
+
+.image__icon {
+  @extend .default_icon;
+}
+
+.emoji__icon {
+  @extend .default_icon;
+}

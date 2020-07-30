@@ -1,3 +1,13 @@
+body {
+  background-color: #14202b;
+  color: #ffffff; }
+
 .nav__icon {
   width: 27px;
-  height: auto; }
+  height: auto;
+  fill: white; }
+
+.default_icon, .logo, .chevron_down, .content_pref, .poll__icon, .schedule__icon, .image__icon, .emoji__icon {
+  width: 50px;
+  height: auto;
+  color: green; }
