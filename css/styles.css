@@ -1,6 +1,19 @@
-.nav__icon {
+body {
+  background-color: #14202b;
+  color: #ffffff; }
+
+.nav__icon svg {
   width: 27px;
   height: auto; }
+
+
+.default_icon {
+  width: 50px;
+  height: auto;
+  color: green; }
+
+.tweet_icons {
+  color: #1da1f2; }
 
 .button {
   background-color: #1da1f2;
@@ -44,3 +57,4 @@ p {
   font-size: 0.9rem;
   font-weight: 400;
   color: #8899a6; }
+
