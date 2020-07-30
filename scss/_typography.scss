@@ -1,0 +1,31 @@
+$fontStack: Helvetica, Arial, sans-serif;
+
+h1 {
+    font-family: $fontStack;
+    font-size: 1.18rem;
+    font-weight: 800;
+    color: #fff;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: $fontStack;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+p {
+    font-family: $fontStack;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.handle {
+    font-family: $fontStack;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: $greyText;
+}
+
