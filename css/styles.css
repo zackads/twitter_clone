@@ -6,20 +6,20 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.18rem;
   font-weight: 800;
-  color: #fff;
+  color: #ffffff;
   font-weight: 800; }
 
 .title {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
   font-weight: bold;
-  color: #fff; }
+  color: #ffffff; }
 
 .tweet {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
-  color: #fff; }
+  color: #ffffff; }
 
 .handle {
   font-family: Helvetica, Arial, sans-serif;
@@ -32,12 +32,29 @@ body {
   height: auto; }
 
 .default_icon {
-  width: 50px;
-  height: auto;
-  color: green; }
+  cursor: pointer;
+  background-color: Transparent;
+  border: 0;
+  transition: 0.15s ease-in-out;
+  border-radius: 50%;
+  color: #ffffff;
+  padding: 0.7em; }
+  .default_icon:hover {
+    color: #1da1f2;
+    background-color: #253341; }
+  .default_icon:active {
+    color: #1da1f2; }
 
-.tweet_icons {
-  color: #1da1f2; }
+.tweet_icon {
+  cursor: pointer;
+  background-color: Transparent;
+  border: 0;
+  transition: 0.15s ease-in-out;
+  border-radius: 50%;
+  color: #1da1f2;
+  padding: 0.5em; }
+  .tweet_icon:hover {
+    background-color: #253341; }
 
 .button {
   background-color: #1da1f2;
