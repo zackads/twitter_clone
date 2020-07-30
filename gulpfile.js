@@ -4,12 +4,22 @@ let rename = require('gulp-rename');
 let sass = require('gulp-sass');
 let uglify = require('gulp-uglify-es').default;
 let concat = require('gulp-concat');
+let browserSync = require('browser-sync').create();
+let reload      = browserSync.reload;
 
 // watches the files and automatically updates them when save is clicked
 
 gulp.task('watch', () => {
-  return gulp.watch(['scss/**/*.scss', 'js/*.js', '!js/*.min.js', '!js/all.js'],
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+
+  gulp.watch("*.html").on("change", reload);  
+  gulp.watch(['scss/**/*.scss', 'js/*.js', '!js/*.min.js', '!js/all.js'],
   gulp.parallel(['minify-sass', 'uglify-scripts']));
+
 });
 
 // compresses css file
@@ -54,3 +64,6 @@ gulp.task('scripts', function() {
 // combines js compressor and js concatinator together in series 
 
 gulp.task('uglify-scripts', gulp.series('uglify', 'scripts'));
+
+
+
