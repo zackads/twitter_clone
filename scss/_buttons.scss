@@ -12,6 +12,7 @@
         height: 2.4375rem;
         font-size: 0.9375rem;
         padding: 0 1rem;
+        letter-spacing: 0.05rem;
     }
 
     &.big {
@@ -19,5 +20,10 @@
         height: 3.0625rem;
         font-size: 0.9375rem;
         padding: 0 1.875rem;
+        letter-spacing: 0.05rem;
+    }
+
+    &:hover {
+        filter: brightness(90%);
     }
 }

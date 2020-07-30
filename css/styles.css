@@ -10,6 +10,7 @@ body {
   font-weight: 800; }
 
 .title {
+  margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
   font-weight: bold;
@@ -27,9 +28,22 @@ body {
   font-weight: 400;
   color: #8899a6; }
 
-.nav__icon svg {
-  width: 27px;
-  height: auto; }
+.nav_item {
+  cursor: pointer;
+  background-color: Transparent;
+  border-radius: 624.9375rem;
+  border: 0;
+  display: flex;
+  transition-duration: 0.2s; }
+  .nav_item .title {
+    align-self: center;
+    padding: 1rem 0.5rem 1rem 1rem; }
+  .nav_item .default_icon {
+    align-self: center; }
+  .nav_item:hover {
+    background-color: #253341; }
+  .nav_item:hover > * {
+    color: #1da1f2; }
 
 .icon {
   cursor: pointer;
@@ -79,9 +93,13 @@ body {
     width: 4.8042rem;
     height: 2.4375rem;
     font-size: 0.9375rem;
-    padding: 0 1rem; }
+    padding: 0 1rem;
+    letter-spacing: 0.05rem; }
   .button.big {
     width: 14.3438rem;
     height: 3.0625rem;
     font-size: 0.9375rem;
-    padding: 0 1.875rem; }
+    padding: 0 1.875rem;
+    letter-spacing: 0.05rem; }
+  .button:hover {
+    filter: brightness(90%); }

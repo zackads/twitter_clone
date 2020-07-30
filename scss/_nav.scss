@@ -1,6 +1,28 @@
-.nav {
-  &__icon svg {
-    width: 27px;
-    height: auto;
+.nav_item {
+  cursor: pointer;
+  background-color: Transparent;
+  border-radius: 624.9375rem;
+  border: 0;
+  display: flex;
+  transition-duration: $hoverTrans;
+
+  .title {
+   align-self: center;
+   padding: 1rem 0.5rem 1rem 1rem;
   }
+
+  .default_icon {
+    align-self: center;
+  }
+
+  &:hover {
+    background-color: $searchColour;
+  }
+
+  &:hover > * {
+    color: $twitterBlue;
+  }
+
+
 }
+
