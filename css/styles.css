@@ -31,30 +31,41 @@ body {
   width: 27px;
   height: auto; }
 
-.default_icon {
+.icon {
   cursor: pointer;
   background-color: Transparent;
   border: 0;
-  transition: 0.15s ease-in-out;
   border-radius: 50%;
-  color: #ffffff;
-  padding: 0.7em; }
-  .default_icon:hover {
-    color: #1da1f2;
+  transition-duration: 0.2s;
+  padding: 0.2rem 0.3rem; }
+  .icon:hover {
     background-color: #253341; }
-  .default_icon:active {
+  .icon:hover .default_icon {
+    color: #1da1f2; }
+  .icon:active .default_icon {
     color: #1da1f2; }
 
+.default_icon {
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  padding: 0.4rem; }
+
 .tweet_icon {
-  cursor: pointer;
-  background-color: Transparent;
-  border: 0;
-  transition: 0.15s ease-in-out;
-  border-radius: 50%;
-  color: #1da1f2;
-  padding: 0.5em; }
-  .tweet_icon:hover {
-    background-color: #253341; }
+  width: 17px;
+  height: 17px;
+  color: #1da1f2; }
+
+.site_logo {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  padding: 0.4rem; }
+
+.chevron {
+  width: 12px;
+  height: 12px;
+  color: #8899a6; }
 
 .button {
   background-color: #1da1f2;
