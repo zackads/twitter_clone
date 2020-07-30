@@ -1,11 +1,12 @@
 .icon {
-  cursor: pointer;
-  background-color: Transparent;
-  border: 0;
+  display: flex;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
+  padding: 0.4rem;
+  cursor: pointer;
   transition-duration: $hoverTrans;
-  padding: 0.2rem 0.3rem;
-
+  
   &:hover {
     background-color: $searchColour;
   }
@@ -20,12 +21,13 @@
 
 }
 
-
 .default_icon {
-    width: 25px;
-    height: 25px;
+    // width: 25px;
+    // height: auto;
+    // margin: auto;
+    // display: block;
     color: $whiteText;
-    padding: 0.4rem;
+
  }
 
 .tweet_icon {
@@ -35,10 +37,7 @@
 }
 
 .site_logo {
-  width: 30px;
-  height: 30px;
-  color: $whiteText;
-  padding: 0.4rem;
+ color: $whiteText;
 }
 
 .chevron {

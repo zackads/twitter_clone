@@ -46,12 +46,13 @@ body {
     color: #1da1f2; }
 
 .icon {
-  cursor: pointer;
-  background-color: Transparent;
-  border: 0;
+  display: flex;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
-  transition-duration: 0.2s;
-  padding: 0.2rem 0.3rem; }
+  padding: 0.4rem;
+  cursor: pointer;
+  transition-duration: 0.2s; }
   .icon:hover {
     background-color: #253341; }
   .icon:hover .default_icon {
@@ -60,10 +61,7 @@ body {
     color: #1da1f2; }
 
 .default_icon {
-  width: 25px;
-  height: 25px;
-  color: #ffffff;
-  padding: 0.4rem; }
+  color: #ffffff; }
 
 .tweet_icon {
   width: 17px;
@@ -71,10 +69,7 @@ body {
   color: #1da1f2; }
 
 .site_logo {
-  width: 30px;
-  height: 30px;
-  color: #ffffff;
-  padding: 0.4rem; }
+  color: #ffffff; }
 
 .chevron {
   width: 12px;
