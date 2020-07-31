@@ -1,9 +1,25 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  ul {
+    padding: 0;
+    margin: 0.5rem 0;
+  }
+
+  li {
+   list-style: none;
+   margin: 0.5rem 0;
+  }
+}
+
 .nav_item {
+  display: inline-flex;
+  padding: 0 0.5rem;
   cursor: pointer;
   background-color: Transparent;
   border-radius: 624.9375rem;
-  border: 0;
-  display: flex;
   transition-duration: $hoverTrans;
 
   .title {
@@ -12,6 +28,9 @@
   }
 
   .default_icon {
+    width: 25px;
+    height: 25px;
+    color: $whiteText;
     align-self: center;
   }
 
@@ -23,6 +42,7 @@
     color: $twitterBlue;
   }
 
-
 }
+
+
 
