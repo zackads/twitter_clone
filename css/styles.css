@@ -108,7 +108,6 @@ body {
     width: 14.3438rem;
     height: 3.0625rem;
     font-size: 0.9375rem;
-
     padding: 0 1.875rem;
     letter-spacing: 0.05rem; }
   .button:hover {
@@ -127,7 +126,7 @@ body {
 .chevron {
   width: 12px;
   height: 12px;
-  padding: 0 1.875rem; }
+  color: #8899a6; }
 
 .searchContainer {
   display: flex;
