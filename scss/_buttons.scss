@@ -1,4 +1,5 @@
 .button {
+    cursor: pointer;
     background-color: $twitterBlue;
     color: $whiteText;
     border: black solid 1px;
@@ -43,7 +44,41 @@
   }
 
   .chevron {
+    cursor: pointer;
     width: 12px;
     height: 12px;  
     color: $greyText;
+  }
+
+  .profile {
+    cursor: pointer;
+    background-color: Transparent;
+    border-radius: 624.9375rem;
+    border: 0;
+    display: flex;
+    justify-content: start;
+    transition-duration: $hoverTrans;
+
+    &.big {
+        width: 14.3438rem;
+        height: 3.0625rem;
+        padding: 0 0.5rem;
+    }
+
+    .handle {
+        margin: 0;
+    }
+    .align {
+        align-self: center;
+        margin-left: 1rem;
+    }
+    .chevron {
+        margin-left: auto;
+        }
+    &:hover {
+        background-color: $searchColour;
+    }
+    
+
+
   }

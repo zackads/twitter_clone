@@ -1,4 +1,10 @@
 body {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  border: $borderStyle;
 }
