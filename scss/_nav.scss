@@ -1,6 +1,48 @@
 .nav {
-  &__icon svg {
-    width: 27px;
-    height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  ul {
+    padding: 0;
+    margin: 0.5rem 0;
+  }
+
+  li {
+   list-style: none;
+   margin: 0.5rem 0;
   }
 }
+
+.nav_item {
+  display: inline-flex;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  background-color: Transparent;
+  border-radius: 624.9375rem;
+  transition-duration: $hoverTrans;
+
+  .title {
+   align-self: center;
+   padding: 1rem 0.5rem 1rem 1rem;
+  }
+
+  .default_icon {
+    width: 25px;
+    height: 25px;
+    color: $whiteText;
+    align-self: center;
+  }
+
+  &:hover {
+    background-color: $searchColour;
+  }
+
+  &:hover > * {
+    color: $twitterBlue;
+  }
+
+}
+
+
+
