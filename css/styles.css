@@ -6,20 +6,21 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.18rem;
   font-weight: 800;
-  color: #fff;
+  color: #ffffff;
   font-weight: 800; }
 
 .title {
+  margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
   font-weight: bold;
-  color: #fff; }
+  color: #ffffff; }
 
 .tweet {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
-  color: #fff; }
+  color: #ffffff; }
 
 .handle {
   font-family: Helvetica, Arial, sans-serif;
@@ -27,17 +28,66 @@ body {
   font-weight: 400;
   color: #8899a6; }
 
-.nav__icon svg {
-  width: 27px;
-  height: auto; }
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+  .nav ul {
+    padding: 0;
+    margin: 0.5rem 0; }
+  .nav li {
+    list-style: none;
+    margin: 0.5rem 0; }
+
+.nav_item {
+  display: inline-flex;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  background-color: Transparent;
+  border-radius: 624.9375rem;
+  transition-duration: 0.2s; }
+  .nav_item .title {
+    align-self: center;
+    padding: 1rem 0.5rem 1rem 1rem; }
+  .nav_item .default_icon {
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    align-self: center; }
+  .nav_item:hover {
+    background-color: #253341; }
+  .nav_item:hover > * {
+    color: #1da1f2; }
+
+.icon {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+  .icon:hover {
+    background-color: #253341; }
+  .icon:hover .default_icon {
+    color: #1da1f2; }
+  .icon:active .default_icon {
+    color: #1da1f2; }
 
 .default_icon {
-  width: 50px;
-  height: auto;
-  color: green; }
+  color: #ffffff; }
 
-.tweet_icons {
+.tweet_icon {
+  width: 17px;
+  height: 17px;
   color: #1da1f2; }
+
+.site_logo {
+  color: #ffffff; }
+
+body {
+  display: flex;
+  justify-content: space-around; }
 
 .button {
   background-color: #1da1f2;
@@ -52,12 +102,32 @@ body {
     width: 4.8042rem;
     height: 2.4375rem;
     font-size: 0.9375rem;
-    padding: 0 1rem; }
+    padding: 0 1rem;
+    letter-spacing: 0.05rem; }
   .button.big {
     width: 14.3438rem;
     height: 3.0625rem;
     font-size: 0.9375rem;
-    padding: 0 1.875rem; }
+
+    padding: 0 1.875rem;
+    letter-spacing: 0.05rem; }
+  .button:hover {
+    filter: brightness(90%); }
+
+.circle_buttons {
+  cursor: pointer;
+  background-color: Transparent;
+  border: 0;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  padding: 0.2rem 0.3rem 0.1rem 0.3rem; }
+  .circle_buttons:hover {
+    background-color: #253341; }
+
+.chevron {
+  width: 12px;
+  height: 12px;
+  padding: 0 1.875rem; }
 
 .searchContainer {
   display: flex;
