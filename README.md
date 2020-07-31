@@ -14,7 +14,7 @@ https://zackads.github.io/twitter_clone/
 
 <strong>Team 1</strong> is made up of Dean, Oscar and Zack. Dean is passionate about origami, Zack is fanatical about CSS grid and Oscar is ready for a beer.
 
-## Gulp tasks (Dean)
+## Gulp tasks
 
 - Watch task
 
