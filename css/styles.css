@@ -39,6 +39,10 @@ body {
 .tweet_icons {
   color: #1da1f2; }
 
+.newtweet__profile {
+  width: 50px;
+  border-radius: 50%; }
+
 .button {
   background-color: #1da1f2;
   color: #ffffff;
