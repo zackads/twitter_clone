@@ -7,10 +7,13 @@ $whiteText: #ffffff;
 $greyText: #8899a6;
 $chevronHover: #213a4f;
 
+// component border style
+$borderStyle: 1px solid $greyText;
+
 body {
   background-color: $backgroundNavy;
   color: $whiteText;
 }
 
 // transitions
- $hoverTrans: 0.2s;
+$hoverTrans: 0.2s;

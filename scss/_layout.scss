@@ -6,4 +6,5 @@ body {
 .col {
   display: flex;
   flex-direction: column;
+  border: $borderStyle;
 }

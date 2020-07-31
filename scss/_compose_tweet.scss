@@ -1,6 +1,35 @@
 .newtweet {
+  $imgSize: 3rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.8rem;
+  border: $borderStyle;
+
   &__profile {
-    width: 50px;
+    float: left;
+    width: $imgSize;
+    height: auto;
     border-radius: 50%;
+  }
+
+  &__input {
+    background: transparent;
+    border: none;
+    width: 80%;
+    height: 3rem;
+    margin-left: 1rem;
+    color: $greyText;
+    font-size: 1rem;
+  }
+
+  &__media {
+    margin-left: $imgSize + 1rem;
+  }
+
+  &__submit {
+    margin-left: auto;
   }
 }
