@@ -46,7 +46,8 @@ body {
   text-align: center;
   border-radius: 624.9375rem;
   font-weight: bold;
-  font-family: Helvetica, Arial, sans-serif; }
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box; }
   .button.small {
     width: 4.8042rem;
     height: 2.4375rem;
@@ -57,3 +58,39 @@ body {
     height: 3.0625rem;
     font-size: 0.9375rem;
     padding: 0 1.875rem; }
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-basis: auto;
+  position: relative;
+  box-sizing: border-box;
+  height: 2.5625rem;
+  width: 21.75rem;
+  border-radius: 624.9375rem;
+  background-color: #253341;
+  color: #8899a6; }
+
+.search {
+  box-sizing: border-box;
+  width: 19.25rem;
+  height: 2.5625rem;
+  border-radius: 624.9375rem;
+  background-color: #253341;
+  color: #8899a6;
+  border: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9375rem;
+  padding: 0.625rem; }
+  .search:focus {
+    outline: none; }
+
+.fa-search {
+  width: 2.5rem;
+  height: 1.1719rem;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  text-align: center;
+  padding-left: 0.625rem; }
