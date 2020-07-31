@@ -96,6 +96,36 @@ body {
   display: flex;
   justify-content: space-around; }
 
+.col {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #8899a6; }
+
+.newtweet {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.8rem;
+  border: 1px solid #8899a6; }
+  .newtweet__profile {
+    float: left;
+    width: 3rem;
+    height: auto;
+    border-radius: 50%; }
+  .newtweet__input {
+    background: transparent;
+    border: none;
+    width: 80%;
+    height: 3rem;
+    margin-left: 1rem;
+    color: #8899a6;
+    font-size: 1rem; }
+  .newtweet__media {
+    margin-left: 4rem; }
+  .newtweet__submit {
+    margin-left: auto; }
+
 .button {
   cursor: pointer;
   background-color: #1da1f2;
