@@ -194,3 +194,8 @@ body {
   text-align: center;
   padding-left: 0.625rem;
   color: #8899a6; }
+
+.thumb {
+  width: 4.3125rem;
+  height: 4.3125rem;
+  border-radius: 0.9375rem; }
