@@ -60,7 +60,7 @@ body {
     color: #1da1f2; }
 
 .icon {
-  display: flex;
+  display: block;
   width: 25px;
   height: 25px;
   border-radius: 50%;

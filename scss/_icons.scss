@@ -1,5 +1,5 @@
 .icon {
-  display: flex;
+  display: block;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -7,6 +7,8 @@
   cursor: pointer;
   transition-duration: $hoverTrans;
   
+
+
   &:hover {
     background-color: $searchColour;
   }
@@ -22,11 +24,7 @@
 }
 
 .default_icon {
-    // width: 25px;
-    // height: auto;
-    // margin: auto;
-    // display: block;
-    color: $whiteText;
+   color: $whiteText;
 
  }
 
