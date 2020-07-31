@@ -1,0 +1,89 @@
+.miniCard{
+    width: 21.75rem;
+    height: 8.8813rem;
+    box-sizing: border-box;
+    padding: 0.625rem 0.9375rem;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(56, 68, 77);
+
+    & .cardText {
+        display: flex;
+        flex-direction: column;
+
+        & p {
+            margin: 0;
+            padding: 0.3rem 0;
+
+            & a {
+                color: $twitterBlue;
+            }
+        }
+    }
+
+    & .thumb {
+        align-self: flex-start;
+    }
+
+}
+
+.miniCardNoImg {
+    width: 21.75rem;
+    height: 5.5031rem;
+    box-sizing: border-box;
+    padding: 0.625rem 0.9375rem;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(56, 68, 77);
+
+    & .cardText {
+        display: flex;
+        flex-direction: column;
+
+        & p {
+            margin: 0;
+            padding: 0.3rem 0;
+
+            & a {
+                color: $twitterBlue;
+            }
+        }
+    }
+}
+
+.miniCardLink {
+    width: 21.75rem;
+    height: 3.1052rem;
+    box-sizing: border-box;
+    padding: 0.625rem 0.9375rem;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(56, 68, 77);
+
+         & a {
+                color: $twitterBlue;
+                font-family: $fontStack;
+                font-size: 0.9rem;
+                align-self: center;
+        }
+
+}
+
+.headBox {
+    width: 21.75rem;
+    height: 2.8083rem;
+    box-sizing: border-box;
+    padding: 0.625rem 0.9375rem;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
+
+.whatsHappening {
+    background-color: $asideColour;
+    border-radius: 0.9375rem;
+
+
+}
