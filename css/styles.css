@@ -229,10 +229,81 @@ body {
 .thumb {
   width: 4.3125rem;
   height: 4.3125rem;
-  border-radius: 50%; }
+  border-radius: 0.9375rem;
+  object-fit: cover; }
 
 .nav_thumb {
   width: 2.2rem;
   height: 2.2rem;
   border-radius: 50%;
   align-self: center; }
+
+.miniCard {
+  width: 21.75rem;
+  height: 8.8813rem;
+  box-sizing: border-box;
+  padding: 0.625rem 0.9375rem;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #38444d; }
+  .miniCard .cardText {
+    display: flex;
+    flex-direction: column; }
+    .miniCard .cardText p {
+      margin: 0;
+      padding: 0.3rem 0; }
+      .miniCard .cardText p a {
+        color: #1da1f2; }
+  .miniCard .thumb {
+    align-self: flex-start; }
+
+.miniCardNoImg {
+  width: 21.75rem;
+  height: 5.5031rem;
+  box-sizing: border-box;
+  padding: 0.625rem 0.9375rem;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #38444d; }
+  .miniCardNoImg .cardText {
+    display: flex;
+    flex-direction: column; }
+    .miniCardNoImg .cardText p {
+      margin: 0;
+      padding: 0.3rem 0; }
+      .miniCardNoImg .cardText p a {
+        color: #1da1f2; }
+
+.miniCardLink {
+  width: 21.75rem;
+  height: 3.1052rem;
+  box-sizing: border-box;
+  padding: 0.625rem 0.9375rem;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #38444d; }
+  .miniCardLink a {
+    color: #1da1f2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    align-self: center; }
+
+.headBox {
+  width: 21.75rem;
+  height: 2.8083rem;
+  box-sizing: border-box;
+  padding: 0.625rem 0.9375rem;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center; }
+
+.whatsHappening {
+  background-color: #192734;
+  border-radius: 0.9375rem; }
+
+.aside .searchContainer {
+  margin-bottom: 0.8rem; }
+
+.aside .whatsHappening {
+  margin-top: 0.8em; }
