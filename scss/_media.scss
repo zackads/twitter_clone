@@ -1,5 +1,12 @@
 .thumb {
     width: 4.3125rem;
     height: 4.3125rem;
-    border-radius: 0.9375rem;
+    border-radius: 50%;
+}
+
+.nav_thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    align-self: center;
 }
