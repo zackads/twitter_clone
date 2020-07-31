@@ -62,7 +62,9 @@ body {
     color: #1da1f2; }
 
 .bottom {
-  margin-top: auto; }
+  position: absolute;
+  bottom: 3rem;
+  overflow: hidden; }
 
 .icon {
   display: block;
