@@ -1,0 +1,39 @@
+.sign_in_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16.75rem;
+    padding: 1rem 0 0.7rem 0;
+    border-radius: 0.7rem;
+    background-color: $backgroundNavy;
+    box-shadow: 2px 2px 10px 2px $searchColour;
+    border: solid 0.5px $greyText;
+    text-align: left;
+    transition-duration: $hoverTrans;
+
+    & > div {
+            padding: 0 1rem 0.7rem 0.7rem;
+            display: flex;
+            justify-content: start;
+
+            .handle {
+                margin: 0;
+            }
+         
+            .align {
+                align-self: center;
+                margin-left: 1rem;
+            }
+         
+            .tick {
+                align-self: center;
+                margin-left: auto;
+                width: 15px;
+                height: 15px;
+                fill: $twitterBlue;
+             }
+        
+         }
+
+}
+

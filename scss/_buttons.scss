@@ -41,44 +41,59 @@
     &:hover {
         background-color: $searchColour;
       }
-  }
+}
 
-  .chevron {
-    cursor: pointer;
-    width: 12px;
-    height: 12px;  
-    color: $greyText;
-  }
+.chevron {
+   cursor: pointer;
+   width: 12px;
+   height: 12px;  
+   color: $greyText;
+}
 
-  .profile {
+.profile {
+   cursor: pointer;
+   width: 14.3438rem;
+   height: 3.0625rem;
+   padding: 0 0.5rem;
+   background-color: Transparent;
+   border-radius: 624.9375rem;
+   border: 0;
+   display: flex;
+   justify-content: start;
+   transition-duration: $hoverTrans;
+
+   .handle {
+       margin: 0;
+   }
+
+   .align {
+       align-self: center;
+       margin-left: 1rem;
+   }
+
+   .chevron {
+       margin-left: auto;
+    }
+ 
+    &:hover {
+       background-color: $searchColour;
+    }
+}
+
+.sign_in {
+    @extend .tweet;
     cursor: pointer;
-    background-color: Transparent;
-    border-radius: 624.9375rem;
-    border: 0;
-    display: flex;
-    justify-content: start;
+    width: inherit;
+    padding: 1rem 0.7rem;
+    background-color: transparent;
+    border-style: solid none none none;
+    border-top: solid 0.5px $greyText;
+    text-align: left;
     transition-duration: $hoverTrans;
-
-    &.big {
-        width: 14.3438rem;
-        height: 3.0625rem;
-        padding: 0 0.5rem;
-    }
-
-    .handle {
-        margin: 0;
-    }
-    .align {
-        align-self: center;
-        margin-left: 1rem;
-    }
-    .chevron {
-        margin-left: auto;
-        }
+   
     &:hover {
         background-color: $searchColour;
-    }
+     }
     
+}
 
-
-  }
