@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 95vh;
 
   ul {
     padding: 0;
@@ -46,12 +47,6 @@
     color: $twitterBlue;
   }
 
-}
-
-.bottom {
-  position: absolute;
-  bottom: 3rem;
-  overflow: hidden;
 }
 
 
