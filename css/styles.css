@@ -66,7 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 16.75rem;
+  width: 18rem;
   padding: 1rem 0 0.7rem 0;
   border-radius: 0.7rem;
   background-color: #14202b;
@@ -104,6 +104,30 @@ body {
     transform: rotate(45deg);
     margin-top: -6px;
     background-color: #14202b; }
+
+.fixed {
+  display: none;
+  position: fixed;
+  bottom: 110px;
+  opacity: 0; }
+
+.box-visible {
+  display: block; }
+
+.box-active {
+  display: block;
+  opacity: 1; }
+
+.box-transition.box-visible {
+  display: block;
+  opacity: 1; }
+
+.box-transition {
+  transition: opacity 0.25s ease; }
+
+.box-hidden {
+  display: block;
+  opacity: 0; }
 
 .icon {
   display: block;
