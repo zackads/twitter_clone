@@ -10,8 +10,9 @@
     border: solid 0.5px $greyText;
     text-align: left;
     transition-duration: $hoverTrans;
+    position: relative;
 
-    & > div {
+    &__content {
             padding: 0 1rem 0.7rem 0.7rem;
             display: flex;
             justify-content: start;
@@ -34,6 +35,22 @@
              }
         
          }
+    
+    &:after {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        border-style: none solid solid none;
+        border-right: solid 0.5px $greyText;
+        border-bottom: solid 0.5px $greyText;
+        top: 100%;
+        left: 50%;
+        margin-left: -6px;
+        content: '';
+        transform: rotate(45deg);
+        margin-top: -6px;
+        background-color: $backgroundNavy;
+    }
 
 }
 
