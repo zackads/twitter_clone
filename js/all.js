@@ -1,2 +1,1 @@
-
 ((s,i)=>{let t=s.getElementById("sign-in-pop");s.getElementById("sign-in-button").addEventListener("click",()=>{t.classList.contains("box-active")?(t.classList.remove("box-active"),t.classList.add("box-transition"),t.classList.add("box-hidden")):(t.classList.add("box-visible"),t.clientWidth,console.log(t.clientWidth),t.classList.add("box-transition"),t.classList.add("box-active"))},!1),t.addEventListener("transitionend",()=>{t.classList.remove("box-transition"),t.classList.remove("box-visible"),t.classList.remove("box-hidden")},!1)})(document,window);
