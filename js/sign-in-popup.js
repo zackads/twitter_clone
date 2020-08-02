@@ -5,8 +5,7 @@
 
     body.addEventListener("click", e => {
       let clicked = e.target;
-      if(clicked.matches("*:not(#sign-in-pop):not(.sign_in)")){
-        console.log(clicked);
+      if(clicked.matches("*:not(#sign-in-pop):not(.sign_in_box__content):not(.sign_in_thumb):not(#sign-in-title):not(#sign-in-handle):not(.tick):not(.sign_in)")){
         if (popup.classList.contains("box-active")) {
           // hide
           popup.classList.remove("box-active");
